@@ -19,8 +19,9 @@ function addToCart(item) {
 
 function viewCart() {
   // write your code here
+  var cartItems = addToCart()
   for (var prop in cart){
-    itemsInCart.push(`${prop} at $${cart[prop]}`)
+    cart.push(`${prop} at $${cart[prop]}`)
   }
   if (!itemsInCart.length){
     console.log("Your shopping cart is empty.")
