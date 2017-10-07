@@ -55,4 +55,3 @@ for (var prop in cart2){
   }
   //move the if else out of the for. FOR should move items into array and if statements print of their own with array
 }
-console.log(itemsInCart)
