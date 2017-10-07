@@ -26,14 +26,14 @@ function viewCart() {
   if (!itemsInCart.length){
     console.log("Your shopping cart is empty.")
   }
-  if (itemsInCart.length = 1){
-    console.log(`In your cart, you have ${itemsInCart[0]}.`)
+  if (cart.length = 1){
+    console.log(`In your cart, you have ${cart[0]}.`)
   }
-  if (itemsInCart.length = 2){
-    console.log(`In your cart, you have ${itemsInCart[0]} and ${itemsInCart[1]}.`)
+  if (cart.length = 2){
+    console.log(`In your cart, you have ${cart[0]} and ${cart[1]}.`)
   }
-  if (itemsInCart.length >= 3){
-    console.log(`In your cart, you have ${itemsInCart[0]}, ${itemsInCart[1]}, and ${itemsInCart[2]}.`)
+  if (cart.length >= 3){
+    console.log(`In your cart, you have ${cart[0]}, ${cart[1]}, and ${cart[2]}.`)
   }
 }
 
