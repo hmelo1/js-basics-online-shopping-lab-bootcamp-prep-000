@@ -23,7 +23,7 @@ function viewCart() {
   for (var prop in cart){
     itemsInCart.push(`${prop} at $${cart[prop]}`)
   }
-  if (!itemsInCart.length){
+  if (!Object.keys(cart).length){
     console.log("Your shopping cart is empty.")
   }
   if (Object.keys(cart).length === 1){
