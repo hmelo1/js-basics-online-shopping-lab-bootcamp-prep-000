@@ -39,7 +39,7 @@ function removeFromCart(item) {
 function placeOrder(cardNumber) {
   // write your code here
 }
-var cart2 = {lemons: 64, mangos: 95}
+var cart2 = {lemons: 64, mangos: 95, bananas: 32}
 var itemsInCart = []
 //for (let i = 0; i < Object.keys(cart2).length; i++){
   //itemsInCart.push(cart2)
