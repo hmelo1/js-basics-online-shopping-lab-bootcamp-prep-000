@@ -27,7 +27,7 @@ function viewCart() {
       console.log(cart3[x])
     }*/
   }
-  if (!cart.length){
+  if (!itemsInCart.length){
     console.log("Your shopping cart is empty.")
   }
   if (cart.length == 1){
