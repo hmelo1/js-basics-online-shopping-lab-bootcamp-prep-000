@@ -77,11 +77,9 @@ if (Object.keys(cart2).length >= 3){
 
 
 var cart3 = [
-  {
-    "bananas": 64,
-    "mangos": 72,
-    "oranges": 91
-  }
+  {"bananas": 64},
+  {"mangos": 72},
+  {"oranges": 91}
 ]
 for (var prop in cart3[0]){
   console.log(cart3[0].prop)
