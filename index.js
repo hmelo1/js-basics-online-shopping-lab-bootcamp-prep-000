@@ -44,7 +44,7 @@ var itemsInCart = []
 //for (let i = 0; i < Object.keys(cart2).length; i++){
   //itemsInCart.push(cart2)
 for (var prop in cart2){
-  itemsInCart.push(`${prop} at ${cart2[prop]}`)
+  itemsInCart.push(`${prop} at $${cart2[prop]}`)
   if (itemsInCart.length == 1){
     console.log(`In your cart, you have ${itemsInCart[0]}.`)
   }
