@@ -45,7 +45,7 @@ var itemsInCart = []
   //itemsInCart.push(cart2)
 for (var prop in cart2){
   itemsInCart.push(`${prop} at $${cart2[prop]}`)
-  if (Object.keys(cart2).length == 1){
+  /*if (Object.keys(cart2).length == 1){
     console.log(`In your cart, you have ${itemsInCart[0]}.`)
   }
   else if (Object.keys(cart2).length == 2){
@@ -53,8 +53,8 @@ for (var prop in cart2){
   }
   else if (Object.keys(cart2).length >= 3){
     console.log(`In your cart, you have ${itemsInCart[0]}, ${itemsInCart[1]}, and ${itemsInCart[2]}.`)
-  }
-  /*if (Object.keys(cart2).length == 1){
+  }*/
+  if (Object.keys(cart2).length == 1){
     console.log(`In your cart, you have ${prop} at ${cart2[prop]}`)
   }
   if (Object.keys(cart2).length == 2 ){
@@ -63,6 +63,6 @@ for (var prop in cart2){
   if (Object.keys(cart2).length >= 3){
 
     console.log(`In your cart, you have ${prop} at ${cart2[prop]}`)
-  }*/
+  }
   //move the if else out of the for. FOR should move items into array and if statements print of their own with array
 }
