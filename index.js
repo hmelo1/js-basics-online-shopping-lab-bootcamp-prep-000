@@ -40,9 +40,9 @@ function placeOrder(cardNumber) {
   // write your code here
 }
 var cart2 = {lemons: 64, mangos: 95, bananas: 32}
-
+var itemsInCart = {}
 for (var prop in cart2){
-  if (Object.keys(cart2).length == 1){
+  /*if (Object.keys(cart2).length == 1){
     console.log(`In your cart, you have ${prop} at ${cart2[prop]}`)
   }
   if (Object.keys(cart2).length == 2 ){
@@ -50,5 +50,6 @@ for (var prop in cart2){
   }
   if (Object.keys(cart2).length >= 3){
     console.log(`In your cart, you have ${prop} at ${cart2[prop]}`)
-  }
+  }*/
+  //move the if else out of the for. FOR should move items into array and if statements print of their own with array
 }
