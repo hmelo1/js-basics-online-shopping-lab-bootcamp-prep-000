@@ -26,10 +26,10 @@ function viewCart() {
   if (!Object.keys(cart).length){
     console.log("Your shopping cart is empty.")
   }
-  if (Object.keys(cart).length === 1){
+  if (Object.keys(cart).length = 1){
     console.log(`In your cart, you have ${itemsInCart[0]}.`)
   }
-  if (Object.keys(cart).length === 2){
+  if (Object.keys(cart).length = 2){
     console.log(`In your cart, you have ${itemsInCart[0]} and ${itemsInCart[1]}.`)
   }
   if (Object.keys(cart).length >= 3){
