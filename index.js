@@ -83,4 +83,4 @@ var cart3 = [
     "oranges": 91
   }
 ]
-console.log(cart3[0].Value)
+console.log(cart3[0].oranges)
