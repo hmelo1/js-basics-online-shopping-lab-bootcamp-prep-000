@@ -19,7 +19,6 @@ function addToCart(item) {
 
 function viewCart() {
   // write your code here
-  var itemsInCart = []
   for (var prop in cart){
     itemsInCart.push(`${prop} at $${cart[prop]}`)
   }
