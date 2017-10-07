@@ -81,14 +81,17 @@ var cart3 = [
   {"mangos": 72},
   {"oranges": 91}
 ]
-console.log(cart3[0].bananas)
+for (var x = 0; x < cart3.length; x++){
+  for (var prop in cart3[x]){
+    console.log(cart3.prop)
+  }
+}
 
 var cart2 = {
   "bananas": 64,
   "mangos": 72,
   "oranges": 91
 }
-console.log(cart2[0])
 for (var prop in cart2){
   console.log(`${prop} at $${cart2[prop]}`)
 }
