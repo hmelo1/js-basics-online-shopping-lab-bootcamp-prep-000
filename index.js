@@ -91,3 +91,6 @@ var cart2 = {
   "mangos": 72,
   "oranges": 91
 }
+for (var prop in cart2){
+  itemsInCart.push(`${prop} at $${cart2[prop]}`)
+}
