@@ -84,3 +84,6 @@ var cart3 = [
   }
 ]
 console.log(cart3[0].oranges)
+for (var prop in cart3){
+  console.log(cart3[0].prop)
+}
