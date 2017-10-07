@@ -56,3 +56,4 @@ for (let i = 0; i < Object.keys(cart2).length; i++){
   }*/
   //move the if else out of the for. FOR should move items into array and if statements print of their own with array
 }
+console.log(itemsInCart)
