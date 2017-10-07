@@ -83,7 +83,7 @@ var cart3 = [
 ]
 for (var x = 0; x < cart3.length; x++){
   for (var prop in cart3[x]){
-    console.log(Object.keys(cart3[x]))
+    console.log(Object.value(cart3[x]))
   }
 }
 
