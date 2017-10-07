@@ -42,6 +42,8 @@ function placeOrder(cardNumber) {
 var cart2 = {lemons: 64, mangos: 95, bananas: 32}
 var itemsInCart = {}
 for (var prop in cart2){
+  itemsInCart.prop = cart2[prop]
+  console.log(itemsInCart)
   /*if (Object.keys(cart2).length == 1){
     console.log(`In your cart, you have ${prop} at ${cart2[prop]}`)
   }
