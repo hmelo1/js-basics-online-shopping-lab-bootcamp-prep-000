@@ -45,10 +45,10 @@ var itemsInCart = []
   //itemsInCart.push(cart2)
 for (var prop in cart2){
   itemsInCart.push(`${prop} at $${cart2[prop]}`)
-  if (Object.keys(cart2).length == 1){
+  if (Object.keys(cart2).length === 1){
     console.log(`In your cart, you have ${itemsInCart[0]}.`)
   }
-  if (Object.keys(cart2).length == 2){
+  if (Object.keys(cart2).length === 2){
     console.log(`In your cart, you have ${itemsInCart[0]} and ${itemsInCart[1]}.`)
   }
   if (Object.keys(cart2).length >= 3){
