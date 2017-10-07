@@ -82,9 +82,7 @@ var cart3 = [
   {"oranges": 91}
 ]
 console.log(cart3[0])
-for (var prop in cart3[0]){
-  console.log(cart3[0].prop)
-}
+
 var cart2 = {
   "bananas": 64,
   "mangos": 72,
