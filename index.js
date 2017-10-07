@@ -77,7 +77,11 @@ if (Object.keys(cart2).length >= 3){
 }*/
 
 
-var cart3 = []
+var cart3 = [
+  {"bananas": 64},
+  {"mangos": 72},
+  {"oranges": 91}
+]
 var itemsInCart2 = []
 for (var x = 0; x < cart3.length; x++){
   var cartKey = Object.keys(cart3[x])
@@ -92,7 +96,7 @@ if (!itemsInCart2.length){
 if (itemsInCart2.length === 1){
   console.log(`In your cart, you have ${itemsInCart2[0]}.`)
 }
-if (itemsInCart2.length === 2){
+if (itemsInCart2.length == 2){
   console.log(`In your cart, you have ${itemsInCart2[0]} and ${itemsInCart2[1]}.`)
 }
 if (itemsInCart2.length >= 3){
