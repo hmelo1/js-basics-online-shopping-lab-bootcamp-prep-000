@@ -90,13 +90,4 @@ for (var x = 0; x < cart3.length; x++){
     console.log(cart3[x])
   }*/
 }
-console.log(itemsInCart2)
 
-var cart2 = {
-  "bananas": 64,
-  "mangos": 72,
-  "oranges": 91
-}
-for (var prop in cart2){
-  console.log(`${prop} at $${cart2[prop]}`)
-}
