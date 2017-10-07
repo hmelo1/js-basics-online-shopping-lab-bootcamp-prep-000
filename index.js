@@ -43,24 +43,26 @@ var cart2 = {lemons: 64, mangos: 95, bananas: 32}
 var itemsInCart = []
 //for (let i = 0; i < Object.keys(cart2).length; i++){
   //itemsInCart.push(cart2)
-var prop in cart2
-itemsInCart.push(`${prop} at $${cart2[prop]}`)
-/*if (Object.keys(cart2).length == 1){
-  console.log(`In your cart, you have ${itemsInCart[0]}.`)
+  
+for (var prop in cart2){
+  itemsInCart.push(`${prop} at $${cart2[prop]}`)
+  /*if (Object.keys(cart2).length == 1){
+    console.log(`In your cart, you have ${itemsInCart[0]}.`)
+  }
+  else if (Object.keys(cart2).length == 2){
+    console.log(`In your cart, you have ${itemsInCart[0]} and ${itemsInCart[1]}.`)
+  }
+  else if (Object.keys(cart2).length >= 3){
+    console.log(`In your cart, you have ${itemsInCart[0]}, ${itemsInCart[1]}, and ${itemsInCart[2]}.`)
+  }*/
+  if (Object.keys(cart2).length === 1){
+    console.log(`In your cart, you have ${prop} at ${cart2[prop]}`)
+  }
+  if (Object.keys(cart2).length === 2 ){
+    console.log(`In your cart, you have ${prop} at ${cart2[prop]}`)
+  }
+  if (Object.keys(cart2).length >= 3){
+    console.log(`In your cart, you have ${prop} at ${cart2[prop]}`)
+  }
+  //move the if else out of the for. FOR should move items into array and if statements print of their own with array
 }
-else if (Object.keys(cart2).length == 2){
-  console.log(`In your cart, you have ${itemsInCart[0]} and ${itemsInCart[1]}.`)
-}
-else if (Object.keys(cart2).length >= 3){
-  console.log(`In your cart, you have ${itemsInCart[0]}, ${itemsInCart[1]}, and ${itemsInCart[2]}.`)
-}*/
-if (Object.keys(cart2).length === 1){
-  console.log(`In your cart, you have ${prop} at ${cart2[prop]}`)
-}
-if (Object.keys(cart2).length === 2 ){
-  console.log(`In your cart, you have ${prop} at ${cart2[prop]}`)
-}
-if (Object.keys(cart2).length >= 3){
-  console.log(`In your cart, you have ${prop} at ${cart2[prop]}`)
-}
-//move the if else out of the for. FOR should move items into array and if statements print of their own with array
