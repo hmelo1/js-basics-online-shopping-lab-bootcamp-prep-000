@@ -19,9 +19,7 @@ function addToCart(item) {
 
 function viewCart() {
   // write your code here
-  var itemsInCart = [  {"bananas": 64},
-    {"mangos": 72},
-    {"oranges": 91}]
+  var itemsInCart = []
   for (var i = 0; i < cart.length; i++){
     var cartKey = Object.keys(cart[x])
     itemsInCart.push(`${cartKey} at $${cart[x][cartKey]}`)
