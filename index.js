@@ -23,16 +23,16 @@ function viewCart() {
   for (var prop in cart){
     itemsInCart.push(`${prop} at $${cart[prop]}`)
   }
-  if (!Object.keys(cart).length){
+  if (!itemsInCart.length){
     console.log("Your shopping cart is empty.")
   }
-  if (Object.keys(cart).length = 1){
+  if (itemsInCart.length = 1){
     console.log(`In your cart, you have ${itemsInCart[0]}.`)
   }
-  if (Object.keys(cart).length = 2){
+  if (itemsInCart.length = 2){
     console.log(`In your cart, you have ${itemsInCart[0]} and ${itemsInCart[1]}.`)
   }
-  if (Object.keys(cart).length >= 3){
+  if (itemsInCart.length >= 3){
     console.log(`In your cart, you have ${itemsInCart[0]}, ${itemsInCart[1]}, and ${itemsInCart[2]}.`)
   }
 }
