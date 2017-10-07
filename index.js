@@ -35,7 +35,6 @@ function viewCart() {
   else if (Object.keys(cart).length >= 3){
     console.log(`In your cart, you have ${itemsInCart[0]}, ${itemsInCart[1]}, and ${itemsInCart[2]}.`)
   }
-  }
 }
 
 function total() {
@@ -54,7 +53,7 @@ var itemsInCart = []
 //for (let i = 0; i < Object.keys(cart2).length; i++){
   //itemsInCart.push(cart2)
 
-for (var prop in cart2){
+/*for (var prop in cart2){
   itemsInCart.push(`${prop} at $${cart2[prop]}`)
 }
 if (Object.keys(cart2).length == 1){
