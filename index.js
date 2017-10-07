@@ -81,7 +81,7 @@ var cart3 = [
   {"mangos": 72},
   {"oranges": 91}
 ]
-console.log(Object.keys(cart3)[0])
+console.log(cart3[0].value)
 
 var cart2 = {
   "bananas": 64,
