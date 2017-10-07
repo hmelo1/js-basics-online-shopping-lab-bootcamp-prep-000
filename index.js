@@ -81,7 +81,7 @@ var cart3 = [
   {"mangos": 72},
   {"oranges": 91}
 ]
-console.log(cart3[0])
+console.log(cart3[0].prop)
 
 var cart2 = {
   "bananas": 64,
