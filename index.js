@@ -88,6 +88,7 @@ var cart2 = {
   "mangos": 72,
   "oranges": 91
 }
+console.log(cart2[0])
 for (var prop in cart2){
   console.log(`${prop} at $${cart2[prop]}`)
 }
