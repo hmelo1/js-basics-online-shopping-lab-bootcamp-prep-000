@@ -45,6 +45,9 @@ var itemsInCart = []
   //itemsInCart.push(cart2)
 for (var prop in cart2){
   itemsInCart.push(`${prop} at ${cart2[prop]}`)
+  if (itemsInCart.length == 1){
+    console.log(`In your cart, you have itemsInCart[1]`)
+  }
   /*if (Object.keys(cart2).length == 1){
     console.log(`In your cart, you have ${prop} at ${cart2[prop]}`)
   }
