@@ -48,7 +48,7 @@ for (var prop in cart2){
   if (itemsInCart.length == 1){
     console.log(`In your cart, you have ${itemsInCart[0]}.`)
   }
-  if (itemsInCart.length == 1){
+  if (itemsInCart.length == 2){
     console.log(`In your cart, you have ${itemsInCart[0]}.`)
   }
   /*if (Object.keys(cart2).length == 1){
