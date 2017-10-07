@@ -22,7 +22,7 @@ function viewCart() {
   var itemsInCart = []
   for (var i = 0; i < cart.length; i++){
     var cartKey = Object.keys(cart[x])
-    console.log(`${cartKey} at $${cart[x][cartKey]}`)
+    itemsInCart.push(`${cartKey} at $${cart[x][cartKey]}`)
     /*for (var prop in cart3[x]){
       console.log(cart3[x])
     }*/
