@@ -52,7 +52,7 @@ for (var prop in cart2){
     console.log(`In your cart, you have ${itemsInCart[0]} and ${itemsInCart[1]}.`)
   }
   else if (Object.keys(cart2).length >= 3){
-    console.log(`In your cart, you have ${itemsInCart[0]}, ${itemsInCart[1]}, and ${itemsInCart[2]}`)
+    console.log(`In your cart, you have ${itemsInCart[0]}, ${itemsInCart[1]}, and ${itemsInCart[2]}.`)
   }
   /*if (Object.keys(cart2).length == 1){
     console.log(`In your cart, you have ${prop} at ${cart2[prop]}`)
