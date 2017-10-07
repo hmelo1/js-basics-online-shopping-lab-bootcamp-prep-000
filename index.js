@@ -76,11 +76,11 @@ if (Object.keys(cart2).length >= 3){
 }*/
 
 
-var cart2 = [
+var cart3 = [
   {
     "bananas": 64,
     "mangos": 72,
     "oranges": 91
   }
 ]
-console.log(cart2[0].Value)
+console.log(cart3[0].Value)
