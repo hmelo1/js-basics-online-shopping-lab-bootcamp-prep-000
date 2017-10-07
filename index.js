@@ -86,3 +86,8 @@ var cart3 = [
 for (var prop in cart3){
   console.log(cart3[0].prop)
 }
+var cart2 = {
+  "bananas": 64,
+  "mangos": 72,
+  "oranges": 91
+}
