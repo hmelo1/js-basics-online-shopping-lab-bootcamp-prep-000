@@ -94,12 +94,12 @@ var cartItems = itemsInCart2.length
 if (!itemsInCart2.length){
   console.log("Your shopping cart is empty.")
 }
-if (itemsInCart2.length === 1){
+if (cartItems === 1){
   console.log(`In your cart, you have ${itemsInCart2[0]}.`)
 }
-if (itemsInCart2.length === 2){
+if (cartItems === 2){
   console.log(`In your cart, you have ${itemsInCart2.join(' and ')}.`)
 }
-if (itemsInCart2.length >= 3){
+if (cartItems >= 3){
   console.log(`In your cart, you have ${itemsInCart2.slice(0, itemsInCart2.length-1).join(', ')}, and ${itemsInCart2.slice(itemsInCart2.length-1)}.`)
 }
