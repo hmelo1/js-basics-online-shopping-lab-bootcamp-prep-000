@@ -78,7 +78,7 @@ var cart3 = [
 var item = "bananas"
 for (var x = 0; x < cart3.length; x++){
   var cartKey = Object.keys(cart3[x])
-  if (!cart3[x].hasOwnProperty("bananas")){
+  if (!cart3[x].hasOwnProperty(item)){
     console.log("That item is not in your cart")
     break
   }
