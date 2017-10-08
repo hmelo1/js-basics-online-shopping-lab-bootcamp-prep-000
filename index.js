@@ -81,5 +81,6 @@ for (var x = 0; x < cart3.length; x++){
   }
   else{
     console.log("Yay")
+    break
   }
 }
