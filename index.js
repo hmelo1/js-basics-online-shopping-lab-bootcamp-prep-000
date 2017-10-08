@@ -53,7 +53,7 @@ function removeFromCart(item) {
   // write your code here
   for (var x = 0; x < cart.length; x++){
     var cartKey = Object.keys(cart[x])
-    if (cart3[x].hasOwnProperty("bananas1")){
+    if (cart[x].hasOwnProperty(item)){
       console.log("Yay")
     }
     else{
