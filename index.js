@@ -91,6 +91,5 @@ for (var x = 0; x < cart3.length; x++){
   else{
     console.log(cart3[x])
     console.love(cart3)
-    console.log(cart3)
   }
 }
