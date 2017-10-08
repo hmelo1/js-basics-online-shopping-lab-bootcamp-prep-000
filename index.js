@@ -89,16 +89,17 @@ for (var x = 0; x < cart3.length; x++){
   /*for (var prop in cart3[x]){
     console.log(cart3[x])
   }*/
+  if (!itemsInCart2.length){
+    console.log("Your shopping cart is empty.")
+  }
+  if (itemsInCart2.length === 1){
+    console.log(`In your cart, you have ${itemsInCart2[0]}.`)
+  }
+  if (itemsInCart2.length === 2){
+    console.log(`In your cart, you have ${itemsInCart2[0]} and ${itemsInCart2[1]}.`)
+  }
+  if (itemsInCart2.length >= 3){
+    console.log(`In your cart, you have ${itemsInCart2[0]}, ${itemsInCart2[1]}, and ${itemsInCart2[2]}.`)
+  }
 }
-if (!itemsInCart2.length){
-  console.log("Your shopping cart is empty.")
-}
-if (itemsInCart2.length === 1){
-  console.log(`In your cart, you have ${itemsInCart2[0]}.`)
-}
-if (itemsInCart2.length === 2){
-  console.log(`In your cart, you have ${itemsInCart2[0]} and ${itemsInCart2[1]}.`)
-}
-if (itemsInCart2.length >= 3){
-  console.log(`In your cart, you have ${itemsInCart2[0]}, ${itemsInCart2[1]}, and ${itemsInCart2[2]}.`)
-}
+
