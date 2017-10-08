@@ -83,5 +83,6 @@ for (var x = 0; x < cart3.length; x++){
   }
   else{
     console.log(cart3[x])
+    delete cart3[x]
   }
 }
