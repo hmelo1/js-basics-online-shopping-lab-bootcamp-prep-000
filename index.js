@@ -72,7 +72,6 @@ var cart3 = [
   {"oranges": 91},
   {"apples": 82}
 ]
-var itemsInCart2 = []
 var totalCost = 0
 for (var x = 0; x < cart3.length; x++){
   var cartKey = Object.keys(cart3[x])
