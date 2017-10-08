@@ -51,9 +51,9 @@ function total() {
 
 function removeFromCart(item) {
   // write your code here
-  for (var x = 0; x < cart3.length; x++){
-    var cartKey = Object.keys(cart3[x])
-    if (cart3[x].hasOwnProperty('item')){
+  for (var x = 0; x < cart.length; x++){
+    var cartKey = Object.keys(cart[x])
+    if (cart[x].hasOwnProperty('item')){
     }
   }
 }
