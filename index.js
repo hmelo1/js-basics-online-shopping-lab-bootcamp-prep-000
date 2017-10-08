@@ -41,6 +41,7 @@ function viewCart() {
 
 function total() {
   // write your code here
+  var totalCost = 0
   for (var x = 0; x < cart.length; x++){
     var cartKey = Object.keys(cart[x])
     var totalCost = totalCost+parseInt(cart[x][cartKey])
