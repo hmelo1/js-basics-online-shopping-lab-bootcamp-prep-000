@@ -72,7 +72,3 @@ for (var x = 0; x < cart3.length; x++){
     console.log("Yay")
   }
 }
-console.log(totalCost)
-if (cart3.hasOwnProperty('bana')){
-  console
-}
