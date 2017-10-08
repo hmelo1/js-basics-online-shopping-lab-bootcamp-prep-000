@@ -82,6 +82,6 @@ for (var x = 0; x < cart3.length; x++){
     console.log("Yay")
   }
   else{
-    console.log(cart[x][item])
+    console.log(cart[x])
   }
 }
