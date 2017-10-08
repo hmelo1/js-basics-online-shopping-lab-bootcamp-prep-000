@@ -51,7 +51,6 @@ function total() {
 
 function removeFromCart(item) {
   // write your code here
-  var itemInCart = new object()
 }
 
 function placeOrder(cardNumber) {
@@ -72,3 +71,4 @@ for (var x = 0; x < cart3.length; x++){
   var totalCost = totalCost+parseInt(cart3[x][cartKey])
 }
 console.log(totalCost)
+i
