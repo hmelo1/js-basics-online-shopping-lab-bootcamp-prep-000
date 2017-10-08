@@ -21,8 +21,8 @@ function viewCart() {
   // write your code here
   var itemsInCart = []
   for (var i = 0; i < cart.length; i++){
-    var cartKey = Object.keys(cart[x])
-    itemsInCart.push(`${cartKey} at $${cart[x][cartKey]}`)
+    var cartKey = Object.keys(cart[i])
+    itemsInCart.push(`${cartKey} at $${cart[i][cartKey]}`)
   }
   if (!itemsInCart.length){
     console.log("Your shopping cart is empty.")
