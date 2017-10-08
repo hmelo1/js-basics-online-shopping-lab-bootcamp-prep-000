@@ -58,7 +58,7 @@ function removeFromCart(item) {
       return cart
     }
     else{
-      delete cart[x].item
+      delete cart[x]
       return cart
     }
   }
