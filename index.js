@@ -58,6 +58,7 @@ function removeFromCart(item) {
     }
     else{
       cart = cart.splice(x, 1)
+      return cart
     }
   }
   return cart
