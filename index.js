@@ -89,7 +89,7 @@ for (var x = 0; x < cart3.length; x++){
     console.log("That item is not in your cart.")
   }
   else{
-  
+
     console.log(cart3)
   }
 }
