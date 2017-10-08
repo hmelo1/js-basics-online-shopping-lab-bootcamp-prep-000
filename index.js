@@ -63,4 +63,3 @@ for (var x = 0; x < cart3.length; x++){
   var cartKey = Object.keys(cart3[x])
   console.log(`${cart3[x][cartKey]}`)
 }
-co
