@@ -75,7 +75,7 @@ function placeOrder(cardNumber) {
     cart = []
 }
 
-
+/*
 var cart3 = [
   {"bananas": 64},
   {"mangos": 72},
@@ -94,4 +94,4 @@ for (var x = 0; x < cart3.length; x++){
     cart3.splice(x, 1)
     console.log(cart3)
   }
-}
+}*/
