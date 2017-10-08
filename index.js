@@ -24,17 +24,18 @@ function viewCart() {
     var cartKey = Object.keys(cart[i])
     itemsInCart.push(`${cartKey} at $${cart[i][cartKey]}`)
   }
+  var cartItems = itemsInCart.length
   if (!itemsInCart.length){
     console.log("Your shopping cart is empty.")
   }
-  if (itemsInCart.length == 1){
+  if (cartItems === 1){
     console.log(`In your cart, you have ${itemsInCart[0]}.`)
   }
-  if (itemsInCart.length == 2){
-    console.log(`In your cart, you have ${itemsInCart[0]} and ${itemsInCart[1]}.`)
+  if (cartItems === 2){
+    console.log(`In your cart, you have ${itemsInCart.join(' and ')}.`)
   }
-  if (itemsInCart.length >= 3){
-    console.log(`In your cart, you have ${itemsInCart[0]}, ${itemsInCart[1]}, and ${itemsInCart[2]}.`)
+  if (cartItems >= 3){
+    console.log(`In your cart, you have ${itemsInCart.slice(0, cartItems-1).join(', ')}, and ${itemsInCart.slice(cartItems-1)}.`)
   }
 }
 
