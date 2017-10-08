@@ -58,7 +58,7 @@ function removeFromCart(item) {
       return cart
     }
     else{
-      delete cart[x]
+      cart3.shift()
       return cart
     }
   }
