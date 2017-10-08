@@ -43,8 +43,9 @@ function total() {
   // write your code here
   for (var x = 0; x < cart.length; x++){
     var cartKey = Object.keys(cart[x])
-    console.log(`${cart[x][cartKey]}`)
+    var totalCost = totalCost+parseInt(cart[x][cartKey])
   }
+  return totalCost
 }
 
 function removeFromCart(item) {
