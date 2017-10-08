@@ -102,4 +102,3 @@ for (var x = 0; x < cart3.length; x++){
     console.log(`In your cart, you have ${itemsInCart2[0]}, ${itemsInCart2[1]}, and ${itemsInCart2[2]}.`)
   }
 }
-
