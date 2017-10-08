@@ -68,8 +68,9 @@ var itemsInCart2 = []
 var totalCost = 0
 for (var x = 0; x < cart3.length; x++){
   var cartKey = Object.keys(cart3[x])
-  var totalCost = totalCost+parseInt(cart3[x][cartKey])
+  if (cart3[x].hasOwnProperty("bananas"))
 }
-if (cart3.hasOwnProperty('bananas')){
-  console.log("test")
+console.log(totalCost)
+if (cart3.hasOwnProperty('bana')){
+  console
 }
