@@ -91,7 +91,7 @@ for (var x = 0; x < cart3.length; x++){
   else{
     console.log(cart3[x])
     console.log(cart3)
-    cart3 = cart3.slice(x+1)
+    cart3 = cart3.slice(0, cart3.length - x)
     console.log(cart3)
   }
 }
