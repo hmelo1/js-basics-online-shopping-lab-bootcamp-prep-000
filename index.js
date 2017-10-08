@@ -84,14 +84,14 @@ var cart3 = [
 ]
 var item = "mangos"
 for (var x = 0; x < cart3.length; x++){
-  //var cartKey = Object.keys(cart3[x])
+  var cartKey = Object.keys(cart3[x])
   if (!cart3[x].hasOwnProperty(item)){
     console.log("That item is not in your cart.")
   }
   else{
     console.log(cart3[x])
     console.log(cart3)
-    cart3 = cart3.splice(cart3[x])
+    delete. cart3[x].cartKey
     console.log(cart3)
   }
 }
