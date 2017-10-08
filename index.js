@@ -90,5 +90,8 @@ for (var x = 0; x < cart3.length; x++){
   }
   else{
     console.log(cart3[x])
+    console.love(cart3)
+    cart3 = cart3.slice(x+1)
+    console.log(cart3)
   }
 }
