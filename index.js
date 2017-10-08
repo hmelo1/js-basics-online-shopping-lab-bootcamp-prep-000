@@ -94,7 +94,7 @@ if (!itemsInCart2.length){
   console.log("Your shopping cart is empty.")
 }
 if (itemsInCart2.length === 1){
-  console.log(`In your cart, you have ${itemsInCart2[0]}.`)
+  console.log(`In your cart, you have ${${itemsInCart.join(' and ')}.`)
 }
 if (itemsInCart2.length === 2){
   console.log(`In your cart, you have ${itemsInCart.join(' and ')}.`)
