@@ -55,7 +55,7 @@ function removeFromCart(item) {
     var cartKey = Object.keys(cart[x])
     if (cart[x].hasOwnProperty(item)){
       console.log("Yay")
-      delete cart3[x][cartKey]
+      delete cartKey
     }
     else{
       console.log("That item is not in your cart.")
@@ -81,7 +81,7 @@ for (var x = 0; x < cart3.length; x++){
   var cartKey = Object.keys(cart3[x])
   if (cart3[x].hasOwnProperty("bananas")){
     console.log("Yay")
-    console.log(cartKey)
+    console.log(cart3.cartKey)
   }
   else{
     console.log("That item is not in your cart.")
