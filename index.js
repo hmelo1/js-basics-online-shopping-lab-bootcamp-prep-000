@@ -97,7 +97,7 @@ if (itemsInCart2.length === 1){
   console.log(`In your cart, you have ${itemsInCart2[0]}.`)
 }
 if (itemsInCart2.length === 2){
-  console.log(`In your cart, you have ${itemsInCart2[0]} and ${itemsInCart2[1]}.`)
+  console.log(`In your cart, you have ${itemsInCart2.join(', ')}.`)
 }
 if (itemsInCart2.length >= 3){
   console.log(`In your cart, you have ${itemsInCart2.join(', ')}.`)
