@@ -67,3 +67,4 @@ for (var x = 0; x < cart3.length; x++){
   var cartKey = Object.keys(cart3[x])
   var totalCost += {cart3[x][cartKey]}
 }
+console.log(totalCost)
