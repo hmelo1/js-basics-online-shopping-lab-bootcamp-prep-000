@@ -75,6 +75,7 @@ var cart3 = [
   {"oranges": 91},
   {"apples": 82}
 ]
+var item = "bananas"
 for (var x = 0; x < cart3.length; x++){
   var cartKey = Object.keys(cart3[x])
   if (!cart3[x].hasOwnProperty("bananas")){
