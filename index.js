@@ -78,7 +78,7 @@ var itemsInCart2 = []
 var totalCost = 0
 for (var x = 0; x < cart3.length; x++){
   var cartKey = Object.keys(cart3[x])
-  if (cart3[x].hasOwnProperty("bananas1")){
+  if (cart3[x].hasOwnProperty("bananas")){
     console.log("Yay")
   }
   else{
