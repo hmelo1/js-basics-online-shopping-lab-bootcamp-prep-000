@@ -53,13 +53,13 @@ function removeFromCart(item) {
   // write your code here
   for (var x = 0; x < cart.length; x++){
     //var cartKey = Object.keys(cart[x])
-    if (!cart[x].hasOwnProperty(item)){
-      console.log("That item is not in your cart.")
-    }
     if(cart[x].hasOwnProperty(item)){
       cart = cart.splice(x, 1)
       return cart
     }
+  }
+  if (!cart[x].hasOwnProperty(item)){
+    console.log("That item is not in your cart.")
   }
 }
 
