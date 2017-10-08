@@ -77,4 +77,5 @@ for (var x = 0; x < cart3.length; x++){
   if (cart3[x].hasOwnProperty("bananas")){
     console.log("Yay")
   }
+  else console.log("That item is not in your cart.")
 }
