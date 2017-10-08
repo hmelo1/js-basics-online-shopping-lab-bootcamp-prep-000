@@ -89,7 +89,7 @@ for (var x = 0; x < cart3.length; x++){
     console.log("That item is not in your cart.")
   }
   else{
-    cart3.shift()
+     cart3 = cart3.slice(x)
     console.log(cart3)
   }
 }
