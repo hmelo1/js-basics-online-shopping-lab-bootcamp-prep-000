@@ -80,7 +80,8 @@ if (Object.keys(cart2).length >= 3){
 var cart3 = [
   {"bananas": 64},
   {"mangos": 72},
-  {"oranges": 91}
+  {"oranges": 91},
+  {"apples": 82}
 ]
 var itemsInCart2 = []
 for (var x = 0; x < cart3.length; x++){
