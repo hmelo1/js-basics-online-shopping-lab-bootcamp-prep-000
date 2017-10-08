@@ -90,6 +90,7 @@ for (var x = 0; x < cart3.length; x++){
     console.log(cart3[x])
   }*/
 }
+var cartItems = itemsInCart2.length
 if (!itemsInCart2.length){
   console.log("Your shopping cart is empty.")
 }
