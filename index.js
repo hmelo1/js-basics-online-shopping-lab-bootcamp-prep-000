@@ -74,7 +74,7 @@ var cart3 = [
 ]
 for (var x = 0; x < cart3.length; x++){
   var cartKey = Object.keys(cart3[x])
-  if (cart3[x].hasOwnProperty("bananas")){
+  if (cart3[x].hasOwnProperty("bananas1")){
     console.log("Yay")
   }
   else{
