@@ -52,7 +52,7 @@ function total() {
 function removeFromCart(item) {
   // write your code here
   for (var x = 0; x < cart.length; x++){
-    var cartKey = Object.keys(cart[x])
+    //var cartKey = Object.keys(cart[x])
     if (!cart[x].hasOwnProperty(item)){
       console.log("That item is not in your cart")
       return cart
